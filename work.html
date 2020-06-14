@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script
+            src="https://kit.fontawesome.com/a98ebf4d8a.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="css/main.css" />
+        <title>View My Work</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="menu-btn">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div>
+
+            <nav class="menu">
+                <div class="menu-branding">
+                    <div class="portrait"></div>
+                </div>
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            About Me
+                        </a>
+                    </li>
+                    <li class="nav-item current">
+                        <a href="work.html" class="nav-link">
+                            My Work
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            How To Reach Me
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="work">
+            <h1 class="lg-heading">
+                My <span class="text-secondary">Work</span>
+            </h1>
+            <h2 class="sm-heading">
+                Check out some of my projects...
+            </h2>
+            <div class="projects">
+                <div class="item">
+                    <img src="img/projects/clockit_project.jpg" alt="ClockIT" />
+                    <a id="show-clockit" href="#" class="btn-light">
+                        <i class="fas fa-eye"></i> ClockIT
+                    </a>
+
+                    <div id="clockit-modal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span id="close-clockit" class="closeBtn"
+                                    >&times;</span
+                                >
+                                <h2>ClockIT</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal-image">
+                                    <img
+                                        src="img/projects/clockit_project.jpg"
+                                        alt="ClockIT"
+                                        class="modal-image"
+                                    />
+                                </div>
+                                <p>
+                                    This is a mobile time attendance system.
+                                    Developed using VueJs for the admin
+                                    frontend, React-Native for the mobile
+                                    front-end, NodeJS / ExpressJs for the
+                                    business logic at the server and MySql as
+                                    the database.
+                                </p>
+
+                                <p>
+                                    Development started in mid 2018 and was
+                                    released to market end of 2019. The mobile
+                                    application is both available in Apple Store
+                                    and Google Playstore. Click the YouTube
+                                    below for a sample of how it works.
+                                </p>
+
+                                <div>
+                                    <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/5sAn6MhzN9c"
+                                        frameborder="0"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <span id="bottom-close-clockit" class="closeBtn"
+                                    >&times;</span
+                                >
+                                <ul class="modal-footer-item">
+                                    <li>
+                                        Customer / Owner:
+                                        <span class="text-secondary"
+                                            >Transact2 Sdn Bhd</span
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="main-footer">
+            Copyright &copy; 2020
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
